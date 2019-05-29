@@ -1,0 +1,1136 @@
+/* -------- GOOGLE WEB FONTS --------- */
+
+/*
+https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,600,700,800|Questrial|family=Raleway:100,200,300,400,500
+font-family: 'Questrial', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+/*=====================================
+      BASE STYLES
+======================================*/
+
+html {
+  background-color: rgb(25, 25, 25);
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+i {
+  color: #d9b310;
+}
+
+
+
+/*=====================================
+      ABOUT COVER SECTION
+======================================*/
+
+.coverContainer {
+  padding: 25px;
+  /* background: rgba(25, 25, 25, 0.75); */
+  background:
+    linear-gradient(to top,
+    rgb(25, 25, 25),
+    rgba(25, 25, 25, 0.95),
+    rgb(25, 25, 25)),
+    url('../img/coding.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+  /* 100vh - padding */
+  height: calc(100vh - 45px);
+}
+
+/* #backgroundVid {
+  position: fixed;
+  background-color: rgb(25, 25, 25);
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: -1;
+} */
+
+.navbar {
+  z-index: 1;
+  position: relative;
+}
+
+.navbarFlexContainer {
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeLink {
+  width: 70px;
+  height: 70px;
+}
+
+#mattfriedLogo {
+  width: 70px;
+  height: 70px;
+  padding-left: 5px;
+}
+
+.navbarButton {
+  background-color: inherit;
+  border: none;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+
+#navbarButtonImage {
+  width: 35px;
+  height: 23px;
+}
+
+.rowNavbarMenu {
+  display: none;
+}
+
+.buttonNavbarMenu {
+  position: relative;
+  display: none;
+}
+
+.buttonNavbarMenu ul {
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.buttonNavbarMenu a {
+  display: list-item;
+  padding: 10px 10px;
+  width: 60px;
+  text-decoration: none;
+  background-color: rgba(50, 50, 50, 0.2);
+}
+
+.activePageLink {
+  color: #d9b310;
+}
+
+.inactivePageLink {
+  color: rgb(175, 175, 175);
+}
+
+.buttonNavbarMenu a:hover,
+.rowNavbarMenu a:hover {
+  color: #d9b310;
+}
+
+.mainTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  width: 80%;
+}
+
+.mattfried {
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.titleLine {
+  border-top: solid 1px #d9b310;
+  margin: 0 auto;
+  width: 0%;
+  height: auto;
+  transition-property: width;
+  transition-duration: 0.8s;
+  transition-timing-function: cubic-bezier(.15,.64,.41,1.45);
+}
+
+.titleLineWidth {
+  width: 12%;
+}
+
+.titleTagLine {
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.mattfried,
+.titleTagLine {
+  /* elements are visible via javascript 'cover.js' */
+  opacity: 0;
+}
+
+.mattFried,
+.titleTagLine {
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+
+.aboutSectionTitleDiv {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30%;
+  transition-property: bottom;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: cubic-bezier(.58,.01,.42,1.47);
+  margin: auto;
+  color: rgb(200, 200, 200);
+}
+
+.dropDown {
+  bottom: 8px;
+}
+
+.aboutSectionTitle {
+  margin-bottom: 2px;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.aboutArrow {
+  width: 25px;
+  height: 25px;
+}
+
+.mattfried,
+.titleTagLine,
+.aboutSectionTitle,
+.aboutArrow {
+  /* elements are visible via javascript 'cover.js' */
+  display: none;
+}
+
+/*=====================================
+      ABOUT/CONTACT TITLE
+======================================*/
+
+.sectionTitle {
+  display: none;
+  color: white;
+  font-size: 2em;
+  margin-top: 1.5em;
+  font-weight: 500;
+}
+
+
+/*=====================================
+      ABOUT ME SECTION
+======================================*/
+
+.aboutContainer {
+  background-color: rgb(25, 25, 25);
+}
+
+.aboutMeImageContainer {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/mattfried.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.aboutMeSection {
+  background-color: rgb(25, 25, 25);
+  color: rgb(225, 225, 225);
+  padding: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.aboutMeP:last-of-type {
+  padding-bottom: 2.5em;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.langTitle {
+  text-align: center;
+  color: #d9b310;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 2.5em auto 1em auto;
+}
+
+.langListContainer {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.langList {
+  margin: 0 auto;
+  font-size: 0.95em;
+}
+
+.langList:first-child {
+  margin-right: 2em;
+}
+
+.langList:last-child {
+  margin-left: 2em;
+}
+
+.dot {
+  color: #d9b310;
+  margin-right: 0.5em;
+}
+
+
+/*=====================================
+      PROJECT PAGE
+======================================*/
+
+.navContainer {
+  padding: 25px;
+  background-color: rgb(25, 25, 25);
+  position: relative;
+  text-align: center;
+}
+
+.projectSection {
+  color: rgb(225, 225, 225);
+  background-color: rgb(25, 25, 25);
+  padding: 0 25px;
+}
+
+.projectContainer {
+  padding: 100px 0;
+  margin-bottom: 0;
+}
+
+.projectContainer:first-child {
+  padding-top: 75px;
+}
+
+.divlineWrapper {
+  background-color: rgb(25, 25, 25);
+}
+
+.divLine {
+  border-top: dotted 2px rgba(217, 179, 16, 0.5);
+  margin: 0 7.5%;
+}
+
+.projectImageMacbook,
+.projectImageiPadPortrait,
+.projectImageiPadLandscape,
+.projectImageiPhone {
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.projectImageMacbook, .projectImageMacbook img {
+  width: 265px;
+}
+
+.projectImageiPadLandscape, .projectImageiPadLandscape img {
+  width: 275px;
+}
+
+.projectImageiPadPortrait, .projectImageiPadPortrait img {
+  height: 275px;
+}
+
+.projectImageiPhone, .projectImageiPhone img {
+  width: 100px;
+}
+
+.projectTitleDiv {
+  text-align: center;
+}
+
+.projectTitle {
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.projectTitle span {
+  font-size: 0.75em;
+}
+
+.websiteInfo,
+.websiteCoding {
+  color: rgb(200, 200, 200);
+  font-size: 0.75em;
+  margin: 0;
+}
+
+.websiteInfo {
+  margin-bottom: 5px;
+}
+
+.websiteCoding span {
+  margin: 0 8px;
+}
+
+.projectNavs {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.visitWebsiteButton,
+.aboutProjectLink,
+.contactButton,
+.myProjectsButton {
+  font-family: 'Questrial', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  border: 1px solid white;
+  font-size: 0.775em;
+  padding: 14px 25px;
+  margin: 0 auto;
+  color: white;
+  background-color: inherit;
+  transition-property: border, border-radius, background-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out, ease-in;
+}
+
+.visitWebsiteButton,
+.contactButton,
+.myProjectsButton {
+  display: inline-block;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding: 14px 36px;
+}
+
+.aboutProjectLink {
+  display: block;
+}
+
+.visitWebsiteButton:hover,
+.contactButton:hover,
+.myProjectsButton:hover {
+  background-color: white;
+  color: rgb(25, 25, 25);
+}
+
+.aboutProjectLink:hover {
+  border-radius: 30px;
+}
+
+.aboutProjectLinkJS {
+  border-radius: 30px;
+  border: 1px solid rgb(125, 125, 125);
+}
+
+.aboutProjectLinkJS:hover {
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.aboutProjectDiv {
+  display: none;
+  color: rgb(175, 175, 175);
+  padding: 25px 5px 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.aboutProjectDiv span {
+  color: #d9b310;
+  padding-right: 5px;
+  border-right: 1px solid rgba(217, 179, 16, 0.75);
+}
+
+.repoDiv {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.projectRepo {
+  color: rgb(200, 200, 200);
+  font-weight: 100;
+  text-decoration: underline;
+  margin: 0 auto;
+}
+
+.projectRepo:hover {
+  color: white;
+}
+
+.projectRepo:active {
+  color: rgb(215, 215, 215);
+}
+
+.marginTop {
+  margin-top: 0.5em;
+}
+
+
+/*=====================================
+      CONTACT SECTION
+======================================*/
+
+.contactSection {
+  background-color: inherit;
+  padding: 25px;
+  /* 100vh - header height */
+  /* height: calc(100vh - 155px); */
+}
+
+.contactSection p {
+  color: white;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.contactSection div {
+  text-align: center;
+}
+
+.contactSection div:last-child {
+  margin-bottom: 2em;
+}
+
+#emailIcon,
+#downloadIcon {
+  height: 20px;
+  padding: 0 2em;
+}
+
+.contactButtonContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+
+/*=====================================
+      FOOTER
+======================================*/
+
+footer {
+  padding: 35px 25px 20px;
+  background-color: rgb(25, 25, 25);
+}
+
+.footerLinkList {
+  text-align: center;
+  color: rgb(175, 175, 175);
+}
+
+.footerLinkList li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footerLinkList a:hover {
+  color: #d9b310;
+}
+
+.copyright {
+  margin: 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(150, 150, 150);
+  font-size: 0.75em;
+}
+
+.copyright span {
+  margin: 10px 0;
+}
+
+.logoLink {
+  padding-right: 10px;
+}
+
+.logoLink:last-child {
+  padding-right: 0;
+}
+
+.logo {
+  width: 2em;
+}
+
+
+
+
+
+/*=====================================
+      MEDIA QUERIES
+======================================*/
+@media (min-width: 600px) {
+
+  .coverContainer, {
+    /* 100vh - padding */
+    height: calc(100vh - 57px);
+  }
+
+  .dropDown {
+    bottom: 10px;
+  }
+
+  .coverContainer,
+  .navContainer,
+  .contactSection {
+    padding: 30px;
+  }
+
+  .aboutMeImageContainer {
+    height: 400px;
+  }
+
+  .aboutMeSection {
+    padding: 25px 30px;
+  }
+
+  .projectImageMacbook, .projectImageMacbook img {
+    width: 370px;
+  }
+
+  .projectImageiPadLandscape, .projectImageiPadLandscape img {
+    width: 315px;
+  }
+
+  .projectImageiPadPortrait, .projectImageiPadPortrait img {
+    height: 315px;
+  }
+
+  .projectImageiPhone, .projectImageiPhone img {
+    width: ;
+  }
+
+  .aboutProjectDiv {
+    padding: 25px 15px 0;
+  }
+
+  footer {
+    padding: 35px 30px 20px;
+  }
+
+}
+
+@media (min-width: 725px) {
+
+  .coverContainer, {
+    /* 100vh - padding */
+    height: calc(100vh - 65px);
+  }
+
+  .dropDown {
+    bottom: 15px;
+  }
+
+  .coverContainer,
+  .navContainer,
+  .contactSection {
+    padding: 35px;
+  }
+
+  #mattfriedLogo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .mainTitle {
+    font-size: 1.75em;
+  }
+
+  .aboutSectionTitleDiv {
+    font-size: 1.15em;
+  }
+
+  .aboutMeImageContainer {
+    height: 400px;
+  }
+
+  .aboutMeSection {
+    padding: 25px 35px;
+  }
+
+  .projectSection {
+    padding: 0 35px;
+  }
+
+  .projectTitle {
+    font-size: 2em;
+  }
+
+  .projectImageMacbook,
+  .projectImageiPadPortrait,
+  .projectImageiPadLandscape,
+  .projectImageiPhone {
+    margin: 0 auto 70px;
+  }
+
+  .projectImageMacbook, .projectImageMacbook img {
+    width: 400px;
+  }
+
+  .projectImageiPadLandscape, .projectImageiPadLandscape img {
+    width: 350px;
+  }
+
+  .projectImageiPadPortrait, .projectImageiPadPortrait img {
+    height: 350px;
+  }
+
+  .projectImageiPhone, .projectImageiPhone img {
+    width: 150px;
+  }
+
+  .aboutProjectdiv {
+    padding: 25px 25px 0;
+  }
+
+  footer {
+    padding: 35px 35px 25px;
+  }
+
+}
+
+
+@media (min-width: 775px) {
+
+  #mattfriedLogo {
+    padding-left: 0;
+  }
+
+  .rowNavbarFlexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rowNavbarMenu {
+    display: block;
+  }
+
+  .rowNavbarMenu ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rowNavbarMenu li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px 30px;
+    width: 60px;
+    font-size: 1.05em;
+    text-decoration: none;
+  }
+
+  .rowNavbarMenu li:last-child {
+    padding-right: 0;
+  }
+
+  .navbarButton {
+    display: none;
+  }
+
+  .buttonNavbarMenu ul {
+    display: none;
+  }
+
+  .sectionTitle {
+    display: block;
+    font-size: 2.25em;
+  }
+
+  .footerLinkList li a {
+    padding: 12px;
+  }
+
+  .copyright {
+    flex-direction: row-reverse;
+  }
+
+}
+
+
+
+@media (min-width: 825px) {
+
+  .aboutMeImageContainer {
+    height: 450px;
+  }
+
+}
+
+
+
+@media (min-width: 900px) {
+
+  .coverContainer, {
+    /* 100vh - padding */
+    height: calc(100vh - 67px);
+  }
+
+  .dropDown {
+    bottom: 20px;
+  }
+
+  .coverContainer,
+  .navContainer,
+  .contactSection {
+    padding: 35px 50px;
+  }
+
+  #mattfriedLogo {
+    width: 85px;
+    height: 85px;
+  }
+
+  .rowNavbarMenu li {
+    padding: 10px 15px 40px;
+    width: 70px;
+    font-size: 1.05em;
+  }
+
+  .mainTitle {
+    font-size: 2em;
+  }
+
+  .mattfried {
+    margin-bottom: 25px;
+  }
+
+  .titleTagLine {
+    margin-top: 30px;
+  }
+
+  .aboutSectionTitleDiv {
+    font-size: 1.25em;
+  }
+
+  .sectionTitle {
+    font-size: 2.5em;
+  }
+
+  .aboutMeImageContainer {
+    height: 500px;
+  }
+
+  .aboutMeSection {
+    padding: 35px 50px;
+  }
+
+  .writeupSection {
+    margin-bottom: 40px;
+  }
+
+  .buttonContainer {
+    margin-bottom: 50px;
+  }
+
+  .projectSection {
+    padding: 35px 50px;
+  }
+
+  .project {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projectImage {
+    width: 50%;
+    text-align: center;
+  }
+
+  .projectImageMacbook, .projectImageMacbook img {
+    width: 350px;
+  }
+
+  .projectImageMacbook {
+    margin: 80px 0 0 50px;
+  }
+
+  .projectImageiPadLandscape, .projectImageiPadLandscape img {
+    width: 325px;
+  }
+
+  .projectImageiPadPortrait, .projectImageiPadPortrait img {
+    height: 325px;
+  }
+
+  .projectImageiPadLandscape {
+    margin: 65px 25px 25px 50px;
+  }
+
+  .projectImageiPadPortrait {
+    margin: 35px 10px 55px 65px;
+  }
+
+  .projectImageiPhone, .projectImageiPhone img {
+    width: 150px;
+  }
+
+  .projectInfoContainer {
+    width: 50%;
+    margin: 0 15px 0 25px;
+  }
+
+  .projectNavs {
+    margin: 0 25px;
+    text-align: center;
+  }
+
+  .aboutProjectDiv {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer {
+    padding: 35px 50px 25px;
+  }
+
+  .footerLinkList li a {
+    padding: 12px 10px;
+    font-size: 1.05em;
+  }
+
+}
+
+
+
+@media (min-width: 1050px) {
+
+  .aboutMeImageContainer {
+    height: 550px;
+  }
+
+  .aboutMeSection {
+    padding: 50px 40px 35px;
+  }
+
+  .writeupSection {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: flex-start;
+  }
+
+  .writeupSection h5 {
+    margin: auto 0;
+    text-align: center;
+    padding-right: 15px;
+    margin-right: 1em;
+    min-width: 175px;
+  }
+
+  .buttonContainer {
+    margin-bottom: 50px;
+  }
+
+  .projectContainer {
+    padding: 125px 0;
+  }
+
+  .projectNavs {
+    padding-top: 75px;
+  }
+
+  .projectImageMacbook {
+    margin: 75px 35px 0 40px;
+  }
+
+  .projectImageiPadLandscape {
+    margin: 65px 35px 25px 65px;
+  }
+
+  .projectImageiPadPortrait {
+    margin: 35px 40px 25px 85px;
+  }
+
+  .projectImageiPhone {
+    margin-top: 25px;
+  }
+
+  .footerLinkList li a {
+    padding: 15px 10px;
+  }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+  .coverContainer, {
+    /* 100vh - padding*/
+    height: calc(100vh - 76px);
+  }
+
+  .dropDown {
+    bottom: 25px;
+  }
+
+  .coverContainer,
+  .navContainer,
+  .contactSection {
+    padding: 40px 75px;
+  }
+
+  #mattfriedLogo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .rowNavbarMenu li {
+    padding: 10px 15px 40px;
+    width: 70px;
+    font-size: 1.1em;
+  }
+
+  .aboutMeImageContainer {
+    height: 650px;
+  }
+
+  .aboutMeSection {
+    padding: 40px 75px;
+  }
+
+  .writeupSetion h5 {
+    min-width: 195px;
+  }
+
+  .projectSection {
+    padding: 0 75px;
+  }
+
+  .projectContainer {
+    max-width: 1150px;
+    padding: 150px 0;
+    margin: 0 auto 30px;
+  }
+
+  .projectImageMacbook, .projectImageMacbook img {
+    width: 400px;
+  }
+
+  .projectImageMacbook {
+    margin: 80px 40px 0 60px;
+  }
+
+  .projectImageiPadLandscape, .projectImageiPadLandscape img {
+    width: 350px;
+  }
+
+  .projectImageiPadPortrait, .projectImageiPadPortrait img {
+    height: 350px;
+  }
+
+  .projectImageiPadLandscape {
+    margin: 65px 50px 25px 75px;
+  }
+
+  .projectImageiPadPortrait {
+    margin: 35px 50px 25px 100px;
+  }
+
+  .projectImageiPhone, .projectImageiPhone img {
+    width: 150px;
+  }
+
+  footer {
+    padding: 45px 75px 35px;
+  }
+
+  .footerLinkList li a {
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+}
+
+
+
+@media (min-width: 1400px) {
+
+  .coverContainer, {
+    /* 100vh - padding*/
+    height: calc(100vh - 76px);
+  }
+
+  .coverContainer,
+  .navContainer,
+  .contactSection {
+    padding: 40px 125px;
+  }
+
+  .mainTitle {
+    font-size: 2.25em;
+  }
+
+  .mattfried {
+    margin-bottom: 30px;
+  }
+
+  .titleTagLine {
+    margin-top: 35px;
+  }
+
+  .sectionTitle {
+    font-size: 2.75em;
+  }
+
+  .aboutMeSection {
+    padding: 40px auto;
+  }
+
+  .contactSection {
+    /* 100vh - navContainer height - footer height - contactSection padding */
+    min-height: calc(100vh - 310px - 305px - 80px);
+  }
+
+  footer {
+    padding: 45px 125px 35px;
+  }
+
+  .navbar,
+  .navContainer,
+  .aboutMeSection,
+  .projectSection,
+  .contactSection,
+  .divline,
+  footer {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
+}

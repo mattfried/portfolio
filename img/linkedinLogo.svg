@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.695mm"
+   height="51.146023mm"
+   viewBox="0 0 50.695 51.146023"
+   version="1.1"
+   id="svg1074"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="linkedin.svg">
+  <defs
+     id="defs1068" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1721924"
+     inkscape:cx="0.24387655"
+     inkscape:cy="76.908633"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="801"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1071">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.305412,-114.85715)">
+    <path
+       style="fill:#969696;fill-opacity:1;stroke:#969696;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 71.360963,114.98944 h 44.500377 c 0.96271,0.21708 1.64103,0.60918 2.11536,1.1268 0.47433,0.51762 0.74467,1.16078 0.89142,1.87999 v 44.56719 c -0.32596,2.65553 -1.73844,3.13805 -3.30746,3.30746 H 71.761868 c -2.06716,-0.14895 -3.017946,-1.41428 -3.324164,-3.32417 v -44.08277 c 0.06211,-1.67134 0.848954,-2.93502 2.923259,-3.4745 z"
+       id="path1189"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsccccccc"
+       inkscape:export-filename="/Users/mattfried/Documents/Web Development/projects/Portfolio Website/img/linkedin.png"
+       inkscape:export-xdpi="150.31"
+       inkscape:export-ydpi="150.31" />
+    <circle
+       style="opacity:1;fill:#191919;fill-opacity:1;fill-rule:nonzero;stroke:#191919;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.82222223;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path1191"
+       cx="79.379051"
+       cy="126.28158"
+       r="4.1678891"
+       inkscape:export-filename="/Users/mattfried/Documents/Web Development/projects/Portfolio Website/img/linkedin.png"
+       inkscape:export-xdpi="150.31"
+       inkscape:export-ydpi="150.31" />
+    <rect
+       style="opacity:1;fill:#191919;fill-opacity:1;fill-rule:nonzero;stroke:#191919;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4.82222223;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="rect1193"
+       width="7.416729"
+       height="24.45516"
+       x="75.704094"
+       y="134.16603"
+       inkscape:export-filename="/Users/mattfried/Documents/Web Development/projects/Portfolio Website/img/linkedin.png"
+       inkscape:export-xdpi="150.31"
+       inkscape:export-ydpi="150.31" />
+    <path
+       style="fill:#191919;fill-opacity:1;stroke:#191919;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4.82222223;stroke-dasharray:none;stroke-opacity:1"
+       d="m 94.747047,158.48756 h -7.349913 v -24.32153 h 6.815373 v 3.40769 c 0,0.002 2.07134,-2.28134 4.209496,-3.17383 2.019827,-0.84309 3.574727,-1.03567 4.977887,-0.83522 1.40317,0.20046 4.05749,1.1191 5.17835,2.13816 1.1418,1.03809 1.98997,2.06756 2.73952,4.00904 0.46772,1.87089 0.33408,1.67044 0.4009,2.6727 0.0668,1.00226 0,16.10299 0,16.10299 h -7.34991 v -14.09847 c 0,0 -0.13364,-2.47224 -1.93771,-3.60814 -1.80406,-1.1359 -3.942219,-0.93544 -4.744029,-0.4009 -0.801809,0.53454 -1.403164,1.00226 -1.937705,1.73725 -0.534537,0.73499 -0.935441,2.00452 -0.935441,2.60588 0,0.60135 -0.06682,13.76438 -0.06682,13.76438 z"
+       id="path1195"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccsssccccccscscc"
+       inkscape:export-filename="/Users/mattfried/Documents/Web Development/projects/Portfolio Website/img/linkedin.png"
+       inkscape:export-xdpi="150.31"
+       inkscape:export-ydpi="150.31" />
+  </g>
+</svg>
