@@ -333,7 +333,7 @@ i {
 }
 
 .projectContainer {
-  padding: 100px 0;
+  padding: 75px 0;
   margin-bottom: 0;
 }
 
@@ -958,7 +958,7 @@ footer {
   }
 
   .projectContainer {
-    padding: 125px 0;
+    padding: 100px 0;
   }
 
   .projectNavs {
@@ -1035,7 +1035,6 @@ footer {
 
   .projectContainer {
     max-width: 1150px;
-    padding: 150px 0;
     margin: 0 auto 30px;
   }
 
