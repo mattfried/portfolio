@@ -63,7 +63,7 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>NodeJS / Express</span></p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>NodeJS</span>&centerdot;<span>ExpressJS</span>&centerdot;<span>Socket.IO</span></p>
             </div>
             <div class="projectNavs">
               <a href="#" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
