@@ -106,7 +106,7 @@ include('includes/header.php');
             </div>
             <div id="aboutProject3" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">To Do List web app built with Create React App.</p>
+              <p class="marginTop">To Do List web app built with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App.</a></p>
               <br />
               <span>Approach</span>
               <p class="marginTop">I used ReactJS to create an interactive UI for this app, which gives the user the ability to add and delete tasks at will.
