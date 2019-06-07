@@ -472,6 +472,12 @@ i {
   border-right: 1px solid rgba(217, 179, 16, 0.75);
 }
 
+.aboutProjectDiv a {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: inherit;
+}
+
 .repoDiv {
   display: flex;
   align-items: center;
