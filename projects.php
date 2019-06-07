@@ -66,16 +66,19 @@ include('includes/header.php');
               <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>NodeJS</span>&centerdot;<span>ExpressJS</span>&centerdot;<span>Socket.IO</span></p>
             </div>
             <div class="projectNavs">
-              <a href="#" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
+              <a href="http://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
               <button id="aboutProject2Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
             <div id="aboutProject2" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">Sports standings website with real-time data for the most popular leagues.</p>
+              <p class="marginTop">Sports standings website with live, real-time data for the most popular leagues.</p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">Coming soon...</p>
-              <p></p>
+              <p class="marginTop">
+                This website utilizes <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporates their provided <a href="https://github.com/MySportsFeeds/mysportsfeeds-node" target="_blank">NodeJS wrapper</a> in "data.js".
+                ExpressJS framework is used to deploy the web application from the static web files located in "public/" directory.
+                Socket.IO library is used to seamlessly communicate between the client and server. In this case, transferring the returned data from the server-side API request to the client-side to manipulate in "public/app.js".
+              </p>
             </div>
             <div class="repoDiv">
               <a href="https://github.com/mattfried/sports-standings" target="_blank" class="projectRepo">View Project Source Code</a>
