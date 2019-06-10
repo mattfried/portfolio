@@ -36,9 +36,9 @@ include('includes/header.php');
 
     <p class="aboutMeP">From the moment I first logged <i>“Hello World”</i> to the browser, I’ve been captivated in the world of programming.</p>
     <p class="aboutMeP">Web development has given me the power to build and share apps with the world around me, to use and enjoy at their disposal.
-      This is what feeds my passion to continually learn and improve my skills through engaging challenges, in-order to deliver detailed, elegant applications.</p>
-      <p>I'm currently looking for full-time employment in a front-end developer position.
-        Stick around a while, and browse my projects.</p>
+       This is what feeds my passion to continually learn and improve my skills through engaging challenges, in-order to deliver detailed, elegant applications.</p>
+    <p class="aboutMeP">I'm currently looking for full-time employment in a front-end developer position.
+       Stick around a while, and browse my projects.</p>
     <!--
     <p class="aboutMeP">I am a motivated web developer specializing in front-end, seeking a full-time position with a company that I can help thrive, and make a positive impact in.</p>
     <p class="aboutMeP">As a developer, I am passionate about creating websites and web-apps that give the world around me access to use and enjoy.
