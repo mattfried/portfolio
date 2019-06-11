@@ -23,7 +23,7 @@ include('includes/header.php');
 <div class="contactSection">
   <p>Email Me:</p>
   <div class="contactButtonContainer">
-    <a href="mailto:fried1@live.com"><button class="contactButton"><img src="img/email.svg" id="emailIcon" alt="email icon" /></button></a>
+    <a href="mailto:matt_fried@outlook.com"><button class="contactButton"><img src="img/email.svg" id="emailIcon" alt="email icon" /></button></a>
   </div>
   <!-- <p>Download Resume:</p>
   <div class="contactButtonContainer">
