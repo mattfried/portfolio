@@ -21,7 +21,10 @@ include('includes/header.php');
       CONTACT SECTION
 ======================================-->
 <div class="contactSection">
-  <p>Email Me:</p>
+  <p>Looking to hire a Front-End Web Developer? General Inquiries?
+    <br />
+    <br />
+    Email Me:</p>
   <div class="contactButtonContainer">
     <a href="mailto:matt_fried@outlook.com"><button class="contactButton"><img src="img/email.svg" id="emailIcon" alt="email icon" /></button></a>
   </div>
