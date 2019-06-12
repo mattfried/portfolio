@@ -63,7 +63,8 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>NodeJS</span>&centerdot;<span>ExpressJS</span>&centerdot;<span>Socket.IO</span></p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span></p>
+              <p class="websiteCoding"><span>NodeJS</span>&centerdot;<span>ExpressJS</span>&centerdot;<span>Socket.IO</span></p>
             </div>
             <div class="projectNavs">
               <a href="http://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
@@ -75,9 +76,8 @@ include('includes/header.php');
               <br />
               <span>Approach</span>
               <p class="marginTop">
-                This website utilizes <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporates their provided <a href="https://github.com/MySportsFeeds/mysportsfeeds-node" target="_blank">NodeJS wrapper</a> in "data.js".
-                ExpressJS framework is used to deploy the web application from the static web files located in "public/" directory.
-                Socket.IO library is used to seamlessly communicate between the client and server. In this case, transferring the returned data from the server-side API request to the client-side to manipulate in "public/app.js".
+                This website utilizes <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporates their provided <a href="https://github.com/MySportsFeeds/mysportsfeeds-node" target="_blank">NodeJS wrapper</a>.
+                ExpressJS framework is used to deploy the web application from the static web files, and Socket.IO library is used to seamlessly communicate between the client and server.
               </p>
             </div>
             <div class="repoDiv">
