@@ -20,39 +20,8 @@ include('includes/header.php');
 
   <h3 class="sectionTitle">My Projects</h3>
 
-</div>  <!-- /Project Section -->
-    <div class="projectSection">
-
-      <div class="projectContainer">  <!-- Project Container -->
-        <div class="project"> <!-- Prairie Oak Photography -->
-          <div class="projectImageMacbook">
-            <img src="img/pop-thumbnail.png" alt="Prairie Oak Photography website displayed on laptop and smartphone" />
-          </div>
-          <div class="projectInfoContainer">
-            <div class="projectTitleDiv">
-              <h4 class="projectTitle">Prairie Oak Photography</h4>
-              <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Sass&sol;SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>PHP</span></p>
-            </div>
-            <div class="projectNavs">
-              <a href="https://prairieoakphotography.com/" target="_blank" class="visitWebsiteButton">VISIT WEBSITE</a>
-              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
-            </div>
-            <div id="aboutProject1" class="aboutProjectDiv">
-              <span>About</span>
-              <p class="marginTop">Website for local photography business, Prairie Oak Photography. Currently under construction.</p>
-              <br />
-              <span>Approach</span>
-              <p class="marginTop">Coming soon...</p>
-            </div>
-            <div class="repoDiv">
-              <a href="#" target="_blank" class="projectRepo">View Project Source Code</a>
-            </div>
-          </div>
-        </div>  <!-- / Prairie Oak Photography -->
-      </div>  <!-- / Project Container -->
-
-      <div class="divLine"></div>
+</div>
+    <div class="projectSection">  <!-- Project Section -->
 
       <div class="projectContainer">  <!-- Project Container -->
         <div class="project"> <!-- Sports Standings App -->
@@ -85,6 +54,37 @@ include('includes/header.php');
             </div>
           </div>
         </div>  <!-- / Sports Standings App -->
+      </div>  <!-- / Project Container -->
+
+      <div class="divLine"></div>
+
+      <div class="projectContainer">  <!-- Project Container -->
+        <div class="project"> <!-- Prairie Oak Photography -->
+          <div class="projectImageMacbook">
+            <img src="img/pop-thumbnail.png" alt="Prairie Oak Photography website displayed on laptop and smartphone" />
+          </div>
+          <div class="projectInfoContainer">
+            <div class="projectTitleDiv">
+              <h4 class="projectTitle">Prairie Oak Photography</h4>
+              <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Sass&sol;SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>PHP</span></p>
+            </div>
+            <div class="projectNavs">
+              <a href="https://prairieoakphotography.com/" target="_blank" class="visitWebsiteButton">VISIT WEBSITE</a>
+              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+            </div>
+            <div id="aboutProject1" class="aboutProjectDiv">
+              <span>About</span>
+              <p class="marginTop">Website for local photography business, Prairie Oak Photography. Currently under construction.</p>
+              <br />
+              <span>Approach</span>
+              <p class="marginTop">Coming soon...</p>
+            </div>
+            <div class="repoDiv">
+              <a href="#" target="_blank" class="projectRepo">View Project Source Code</a>
+            </div>
+          </div>
+        </div>  <!-- / Prairie Oak Photography -->
       </div>  <!-- / Project Container -->
 
       <div class="divLine"></div>
