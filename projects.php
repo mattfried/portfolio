@@ -75,13 +75,16 @@ include('includes/header.php');
             </div>
             <div id="aboutProject1" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">Website for local photography business, Prairie Oak Photography. Currently under construction.</p>
+              <p class="marginTop">Website for local photography business, Prairie Oak Photography.</p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">Coming soon...</p>
+              <p class="marginTop">PHP is used alongside the front-end in-order to add logical programming to the static pages.
+                A couple examples used here are includes for implementing reusable sections to each page such as the header and footer, as well as storing and executing code chunks based on given variables assigned to each page.</p>
+                <p>Sass/SCSS preprocessor is used as an extension for CSS.</p>
+                <p>All effects and user interactiveness is programmed with raw JavaScript (no libraries).</p>
             </div>
             <div class="repoDiv">
-              <a href="#" target="_blank" class="projectRepo">View Project Source Code</a>
+              <a href="https://github.com/mattfried/prairie-oak-photography" target="_blank" class="projectRepo">View Project Source Code</a>
             </div>
           </div>
         </div>  <!-- / Prairie Oak Photography -->
