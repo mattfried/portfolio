@@ -21,17 +21,15 @@ include('includes/header.php');
       CONTACT SECTION
 ======================================-->
 <div class="contactSection">
-  <p>Looking to hire a Front-End Web Developer? General Inquiries?
-    <br />
-    <br />
-    Email Me:</p>
+  <p class="contactP">Looking to hire a Front-End Web Developer? General Inquiries?</p>
+  <p class="emailmeP">Email Me:</p>
   <div class="contactButtonContainer">
     <a href="mailto:matt_fried@outlook.com"><button class="contactButton"><img src="img/email.svg" id="emailIcon" alt="email icon" /></button></a>
   </div>
-  <!-- <p>Download Resume:</p>
+  <p class="downloadP">Download Resume:</p>
   <div class="contactButtonContainer">
-    <a href="../img/coding.jpeg" download><button class="contactButton"><img src="img/download.svg" id="downloadIcon" alt="download icon" /></button></a>
-  </div> -->
+    <a href="docs/mattfried_resume.pdf" download><button class="contactButton"><img src="img/download.svg" id="downloadIcon" alt="download icon" /></button></a>
+  </div>
 
 </div>
 

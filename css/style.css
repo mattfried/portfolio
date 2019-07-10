@@ -516,9 +516,20 @@ i {
   /* height: calc(100vh - 155px); */
 }
 
-.contactSection p {
+.contactP,
+.emailmeP,
+.downloadP {
   color: white;
   text-align: center;
+}
+
+.contactP {
+  font-size: 1.15em;
+  margin-bottom: 3em;
+}
+
+.contactP,
+.downloadP {
   margin-top: 5em;
 }
 
