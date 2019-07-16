@@ -26,10 +26,10 @@ include('includes/header.php');
   <div class="contactButtonContainer">
     <a href="mailto:matt_fried@outlook.com"><button class="contactButton"><img src="img/email.svg" id="emailIcon" alt="email icon" /></button></a>
   </div>
-  <p class="downloadP">Download Resume:</p>
+  <!-- <p class="downloadP">Download Resume:</p>
   <div class="contactButtonContainer">
     <a href="docs/mattfried_resume.pdf" download><button class="contactButton"><img src="img/download.svg" id="downloadIcon" alt="download icon" /></button></a>
-  </div>
+  </div> -->
 
 </div>
 
