@@ -39,11 +39,6 @@ include('includes/header.php');
        This is what feeds my passion to continually learn and improve my skills through engaging challenges, in-order to deliver detailed, elegant applications.</p>
     <p class="aboutMeP">I'm currently looking for full-time employment in a front-end developer position.
        Stick around a while, and browse my projects.</p>
-    <!--
-    <p class="aboutMeP">I am a motivated web developer specializing in front-end, seeking a full-time position with a company that I can help thrive, and make a positive impact in.</p>
-    <p class="aboutMeP">As a developer, I am passionate about creating websites and web-apps that give the world around me access to use and enjoy.
-      Although the process of daily problem solving and continual learning is challenging, the outcome of visually seeing my work come to fruition is what makes me thirst to continue creating, learning, and progressing.</p>
- -->
 
     <div class="buttonContainer">
       <a href="projects.php" class="myProjectsButton">Go to My Projects</a>
