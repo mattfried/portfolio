@@ -27,7 +27,7 @@
           <!-- <a href="https://www.instagram.com/mattfrieder/" target="_blank" class="logoLink">
             <img src="../img/instagramLogo.svg" class="logo" alt="instagram logo" />
           </a> -->
-          <a href="https://www.linkedin.com/in/mattfrieddev" target="_blank" class="logoLink">
+          <a href="https://www.linkedin.com/in/friedmatt" target="_blank" class="logoLink">
             <img src="../img/linkedinLogo.svg" class="logo" alt="linkedin logo" />
           </a>
           <a href="https://codepen.io/mattfried/" target="_blank" class="logoLink">
