@@ -37,7 +37,7 @@ include('includes/header.php');
               <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
             </div>
             <div class="projectNavs">
-              <a href="http://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
+              <a href="https://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
               <button id="aboutProject2Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
             <div id="aboutProject2" class="aboutProjectDiv">
