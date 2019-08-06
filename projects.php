@@ -32,8 +32,8 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span></p>
-              <p class="websiteCoding"><span>NodeJS</span>&centerdot;<span>ExpressJS</span>&centerdot;<span>Socket.IO</span></p>
+              <p class="websiteCoding"><span>Sass/SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>Socket.io</span></p>
+              <p class="websiteCoding"><span>Keystone.js CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
             </div>
             <div class="projectNavs">
               <a href="http://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
@@ -45,8 +45,9 @@ include('includes/header.php');
               <br />
               <span>Approach</span>
               <p class="marginTop">
-                This website utilizes <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporates their provided <a href="https://github.com/MySportsFeeds/mysportsfeeds-node" target="_blank">NodeJS wrapper</a>.
-                ExpressJS framework is used to deploy the web application from the static web files, and Socket.IO library is used to seamlessly communicate between the client and server.
+                This website is powered by Keystone.js (Node.js CMS) platform, built on Express and MongoDB.
+                I've utilized <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporated my self-modified version of their <a href="https://github.com/mattfried/mysportsfeeds-node" target="_blank">NodeJS wrapper</a>.
+                Socket.io is used to seamlessly communicate between the client and server.
               </p>
             </div>
             <div class="repoDiv">
