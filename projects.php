@@ -32,8 +32,8 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
-              <p class="websiteCoding"><span>Sass/SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>Keystone CMS</span></p>
-              <p class="websiteCoding"><span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
+              <p class="websiteCoding"><span>Sass&sol;SCSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span></p>
+              <p class="websiteCoding"><span>Keystone CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
               <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
             </div>
             <div class="projectNavs">
@@ -69,7 +69,7 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Prairie Oak Photography</h4>
               <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Sass&sol;SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>PHP</span></p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>PHP</span>&centerdot;<span>Sass&sol;SCSS</span>&centerdot;<span>JavaScript</span></p>
             </div>
             <div class="projectNavs">
               <a href="https://prairieoakphotography.com/" target="_blank" class="visitWebsiteButton">VISIT WEBSITE</a>
@@ -103,7 +103,7 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">To Do List App</h4>
               <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Sass/SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>ReactJS</span></p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>Sass&sol;SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>ReactJS</span></p>
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/to-do-list/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
@@ -170,7 +170,7 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">My Portfolio <span>(This Website)</span></h4>
               <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
-              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>jQuery</span>&centerdot;<span>PHP</span></p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>PHP</span>&centerdot;<span>CSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>jQuery</span></p>
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.ca/"><button class="visitWebsiteButton">GO TO HOME PAGE</button></a>
