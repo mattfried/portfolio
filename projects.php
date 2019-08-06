@@ -32,8 +32,9 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
-              <p class="websiteCoding"><span>Sass/SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>Socket.io</span></p>
-              <p class="websiteCoding"><span>Keystone.js CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
+              <p class="websiteCoding"><span>Sass/SCSS</span>&centerdot;<span>JavaScript</span>&centerdot;<span>Keystone CMS</span></p>
+              <p class="websiteCoding"><span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
+              <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
             </div>
             <div class="projectNavs">
               <a href="http://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
