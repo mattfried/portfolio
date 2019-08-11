@@ -42,13 +42,11 @@ include('includes/header.php');
             </div>
             <div id="aboutProject2" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">Sports standings website with live, real-time data for the most popular leagues.</p>
+              <p class="marginTop">Sports Standings is as it states, a website that provides live stats and standings for the most popular leagues: NHL, NBA, NFL, and MLB.</p>
               <br />
               <span>Approach</span>
               <p class="marginTop">
-                This website is powered by Keystone.js (Node.js CMS) platform, built on Express and MongoDB.
-                I've utilized <a href="https://www.mysportsfeeds.com/" target="_blank">MySportsFeeds</a> data API, and incorporated my self-modified version of their <a href="https://github.com/mattfried/mysportsfeeds-node" target="_blank">NodeJS wrapper</a>.
-                Socket.io is used to seamlessly communicate between the client and server.
+                I initially built this as a demo web-app with API requests done on the front-end, but later I taught myself Node.js and re-programmed with back-end API requests in order to generate a more secure infrastructure. Furthermore, I then integrated the project with Keystone (Node.js CMS) to allow for future scalability.
               </p>
             </div>
             <div class="repoDiv">
@@ -77,13 +75,10 @@ include('includes/header.php');
             </div>
             <div id="aboutProject1" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">Website for local photography business, Prairie Oak Photography.</p>
+              <p class="marginTop">Prairie Oak Photography is a local photography business, and I designed and developed their custom website from the ground up.</p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">PHP is used alongside the front-end in-order to add logical programming to the static pages.
-                A couple examples used here are includes for implementing reusable sections to each page such as the header and footer, as well as storing and executing code chunks based on given variables assigned to each page.</p>
-                <p>Sass/SCSS preprocessor is used as an extension for CSS.</p>
-                <p>All effects and user interactiveness is programmed with raw JavaScript (no libraries).</p>
+              <p class="marginTop">I optimized their high-quality photos in Photoshop to enhance the website performance and loading speeds. The main features include auto/manual portfolio slideshows, an about section to get an inside scoop on the business and the person behind the lens, and pricing/contact information for new and returning customers.</p>
             </div>
             <div class="repoDiv">
               <a href="https://github.com/mattfried/prairie-oak-photography" target="_blank" class="projectRepo">View Project Source Code</a>
@@ -111,12 +106,10 @@ include('includes/header.php');
             </div>
             <div id="aboutProject3" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">To Do List web app built with <a href="https://github.com/facebook/create-react-app" target="_blank">Create React App.</a></p>
+              <p class="marginTop">This is a fun task list web-app built with React.</p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">I used ReactJS to create an interactive UI for this app, which gives the user the ability to add and delete tasks at will.
-                A number counter is provided in the header to display the current total number of tasks in the list at any given time.</p>
-                <p>The bulk of this ReactJS app uses function and class components to store data, handle state changes, and then pass this data up and down the component chain via props.</p>
+              <p class="marginTop">Features include an interactive add-and-delete function, a total task counter, and responsive cross-platform, cross-browser compatibility.</p>
             </div>
             <div class="repoDiv">
               <a href="https://github.com/mattfried/to-do-list" target="_blank" class="projectRepo">View Project Source Code</a>
@@ -181,10 +174,7 @@ include('includes/header.php');
               <p class="marginTop">My portfolio website showcasing my progress as a web developer.</p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">PHP is used alongside the front-end in-order to add logical programming to the static pages.
-                A couple examples used here are includes for implementing reusable sections to each page such as the header and footer,
-                as well as storing and executing code chunks based on given variables assigned to each page.</p>
-                <p>jQuery was incorporated for ease and versatility with adding visual effects and an interactive UX.</p>
+              <p class="marginTop">My journey as a web developer is unique, and I felt that it was only fitting to design and develop my portfolio website from scratch - no CMS, no templates - in order to best represent myself. I did however implement jQuery to enhance the interactive UX design which includes animations, navigation bar/button manipulation, and drop-down content.</p>
             </div>
             <div class="repoDiv">
               <a href="#" target="_blank" class="projectRepo">View Project Source Code</a>
