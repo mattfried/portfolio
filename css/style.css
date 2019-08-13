@@ -274,9 +274,8 @@ i {
   font-weight: 100;
 }
 
-.aboutMeP:last-of-type {
-  padding-top: 1.5em;
-  padding-bottom: 2.5em;
+.aboutMeSection p {
+  margin-bottom: 2em;
 }
 
 .buttonContainer {
