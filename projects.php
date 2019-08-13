@@ -31,7 +31,7 @@ include('includes/header.php');
           <div class="projectInfoContainer">
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
-              <p class="websiteInfo">Development &nbsp; | &nbsp; Partial Design</p>
+              <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
               <p class="websiteCoding"><span>Sass&sol;SCSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span></p>
               <p class="websiteCoding"><span>Keystone CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
               <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
@@ -75,10 +75,16 @@ include('includes/header.php');
             </div>
             <div id="aboutProject1" class="aboutProjectDiv">
               <span>About</span>
-              <p class="marginTop">Prairie Oak Photography is a local photography business, and I designed and developed their custom website from the ground up.</p>
+              <p class="marginTop">
+                Prairie Oak Photography is a local photography business, and this client wanted a simple, clean, yet elegant website to showcase her work.
+                I designed and developed this custom website from the ground up according to those needs.
+              </p>
               <br />
               <span>Approach</span>
-              <p class="marginTop">I optimized their high-quality photos in Photoshop to enhance the website performance and loading speeds. The main features include auto/manual portfolio slideshows, an about section to get an inside scoop on the business and the person behind the lens, and pricing/contact information for new and returning customers.</p>
+              <p class="marginTop">
+                The main features include auto/manual portfolio slideshows, an about section to get an inside scoop on the business and the person behind the lens, and pricing/contact information for new and returning customers.
+                I optimized the client’s high-quality photos in Photoshop in order to enhance the website performance and loading speeds.
+              </p>
             </div>
             <div class="repoDiv">
               <a href="https://github.com/mattfried/prairie-oak-photography" target="_blank" class="projectRepo">View Project Source Code</a>
