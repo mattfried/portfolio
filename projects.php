@@ -38,9 +38,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
-              <button id="aboutProject2Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject2" class="aboutProjectDiv">
+            <div id="aboutProject1" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">Sports Standings is as it states, a website that provides live stats and standings for the most popular leagues: NHL, NBA, NFL, and MLB.</p>
               <br />
@@ -71,9 +71,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://prairieoakphotography.com/" target="_blank" class="visitWebsiteButton">VISIT WEBSITE</a>
-              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject2Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject1" class="aboutProjectDiv">
+            <div id="aboutProject2" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">
                 Prairie Oak Photography is a local photography business, and this client wanted a simple, clean, yet elegant website to showcase her work.
@@ -126,6 +126,45 @@ include('includes/header.php');
 
       <div class="divLine"></div>
 
+      <div class="projectSection">  <!-- Project Section -->
+
+        <div class="projectContainer">  <!-- Project Container -->
+          <div class="project"> <!-- Concrete Skateboard Shop Website -->
+            <div class="projectImageMacbook">
+              <img src="img/concreteskateshop-wp.png" alt="Concrete Skateboard Shop website displayed on laptop and smartphone" />
+            </div>
+            <div class="projectInfoContainer">
+              <div class="projectTitleDiv">
+                <h4 class="projectTitle">Concrete Skateboard Shop</h4>
+                <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
+                <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span>&centerdot;<span>jQuery</span></p>
+                <p class="websiteCoding"><span>jQuery plugins</span>&centerdot;<span>PHP</span>&centerdot;<span>WordPress CMS</span></p>
+              </div>
+              <div class="projectNavs">
+                <a href="https://concreteskateshop.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
+                <button id="aboutProject4Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              </div>
+              <div id="aboutProject4" class="aboutProjectDiv">
+                <span>About</span>
+                <p class="marginTop">This is a custom WordPress theme website for a concept skate shop company called Concrete Skateboard Shop.</p>
+                <br />
+                <span>Approach</span>
+                <p class="marginTop">
+                  I used the <a href="https://www.advancedcustomfields.com/">Advanced Custom Fields<a> plugin to create user-entry points in the back-end of the PHP-based CMS, allowing the content manager to edit everything from the relative content blocks on the front-end interface. This includes product/brand images, product prices, external links, and text blocks for each section.
+                </p>
+                <p>
+                  Bootstrap is incorporated for responsive page styling and layout, and jQuery plugin libraries <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel</a> and <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> for added interactive UI and UX.
+                </p>
+              </div>
+              <div class="repoDiv">
+                <a href="https://github.com/mattfried/concreteskateshop-wordpress" target="_blank" class="projectRepo">View Project Source Code</a>
+              </div>
+            </div>
+          </div>  <!-- / Concrete Skateboard Shop Website -->
+        </div>  <!-- / Project Container -->
+
+        <div class="divLine"></div>
+
       <div class="projectContainer">  <!-- Project Container -->
         <div class="project"> <!-- Calculator Web App -->
           <div class="projectImageiPadPortrait">
@@ -139,9 +178,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/calculator" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
-              <button id="aboutProject4Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject5Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject4" class="aboutProjectDiv">
+            <div id="aboutProject5" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">My creation of a responsive calculator app.</p>
               <br />
@@ -173,9 +212,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.ca/"><button class="visitWebsiteButton">GO TO HOME PAGE</button></a>
-              <button id="aboutProject5Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject6Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject5" class="aboutProjectDiv">
+            <div id="aboutProject6" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">My portfolio website showcasing my progress as a web developer.</p>
               <br />
@@ -204,9 +243,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/full-stack-conf/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
-              <button id="aboutProject6Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject7Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject6" class="aboutProjectDiv">
+            <div id="aboutProject7" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">Full Stack Conference is a single page mock website that serves as the info and registration hub for an upcoming conference.</p>
               <br />
@@ -238,9 +277,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/winnipeg-guide/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
-              <button id="aboutProject7Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject8Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject7" class="aboutProjectDiv">
+            <div id="aboutProject8" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">The City of Winnipeg Guide is a single page website showcasing some of the city’s best food, drinks, and sporting events. This is a practice project for an online web development course.</p>
               <br />
