@@ -150,7 +150,7 @@ include('includes/header.php');
                 <br />
                 <span>Approach</span>
                 <p class="marginTop">
-                  I used the <a href="https://www.advancedcustomfields.com/">Advanced Custom Fields</a> plugin to create user-entry points in the back-end of the PHP-based CMS, allowing the content manager to edit everything from the relative content blocks on the front-end interface. This includes product/brand images, product prices, external links, and text blocks for each section.
+                  I used the <a href="https://www.advancedcustomfields.com/" target="_blank">Advanced Custom Fields</a> plugin to create user-entry points in the back-end of the PHP-based CMS, allowing the content manager to edit everything from the relative content blocks on the front-end interface. This includes product/brand images, product prices, external links, and text blocks for each section.
                 </p>
                 <p>
                   Bootstrap is incorporated for responsive page styling and layout, and jQuery plugin libraries <a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">Owl Carousel</a> and <a href="https://dimsemenov.com/plugins/magnific-popup/" target="_blank">Magnific Popup</a> for added interactive UI and UX.
