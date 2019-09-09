@@ -32,7 +32,7 @@ include('includes/header.php');
             <div class="projectTitleDiv">
               <h4 class="projectTitle">Sports Standings</h4>
               <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
-              <p class="websiteCoding"><span>Sass&sol;SCSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span></p>
+              <p class="websiteCoding"><span>Sass&sol;SCSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span>&centerdot;<span>jQuery</span></p>
               <p class="websiteCoding"><span>Keystone CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
               <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
             </div>
