@@ -15,9 +15,13 @@ include('includes/header.php');
   ?>
 
   <div class="mainTitle">
-    <h1 class="mattFried">Matt Fried</h1>
+    <h1 class="mattFried" id="mattFried">
+
+    </h1>
     <div class="titleLine"></div>
-    <p class="titleTagLine">Hi! &#x270C; I'm a Web Developer</p>
+    <p class="titleTagLine" id="titleTagLine">
+      
+    </p>
   </div>
   <div class="aboutSectionTitleDiv">
     <h2 class="aboutSectionTitle">About Me</h2>

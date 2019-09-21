@@ -168,14 +168,27 @@ i {
   letter-spacing: 0.025em;
 }
 
+.nameLetter {
+  margin: 1.5px;
+}
+
+.tagLetter {
+  margin: 0.5px;
+}
+
+.nameLetter, .tagLetter {
+  opacity: 0;
+}
+
 .titleLine {
   border-top: solid 1px #d9b310;
   margin: 0 auto;
   width: 0%;
   height: auto;
   transition-property: width;
-  transition-duration: 0.8s;
-  transition-timing-function: cubic-bezier(.15,.64,.41,1.45);
+  transition-duration: 0.75s;
+  /* transition-timing-function: cubic-bezier(.55,1.64,.85,1.61); */
+  transition-timing-function: cubic-bezier(.51,1.02,.83,1.09);
 }
 
 .titleLineWidth {
@@ -185,12 +198,6 @@ i {
 .titleTagLine {
   margin-top: 25px;
   font-weight: 400;
-}
-
-.mattfried,
-.titleTagLine {
-  /* elements are visible via javascript 'cover.js' */
-  opacity: 0;
 }
 
 .mattFried,
@@ -228,8 +235,6 @@ i {
   height: 25px;
 }
 
-.mattfried,
-.titleTagLine,
 .aboutSectionTitle,
 .aboutArrow {
   /* elements are visible via javascript 'cover.js' */

@@ -52,6 +52,8 @@
 
     <!-- compressed jQuery 3.4.0 for production -->
     <script src="../javascript/jquery-3.4.0.min.js"></script>
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="../javascript/app.js"></script>
     <?php
     // if on About page, include cover.js
