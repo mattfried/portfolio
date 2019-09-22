@@ -1,3 +1,5 @@
+$('html').css('opacity', '1');
+
 // ********* NAVBAR DROP DOWN *********
 
 // variables & counter

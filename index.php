@@ -20,7 +20,7 @@ include('includes/header.php');
     </h1>
     <div class="titleLine"></div>
     <p class="titleTagLine" id="titleTagLine">
-      
+
     </p>
   </div>
   <div class="aboutSectionTitleDiv">

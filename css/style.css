@@ -15,6 +15,9 @@ font-family: 'Raleway', sans-serif;
 html {
   background-color: rgb(25, 25, 25);
   font-size: 1em;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 
 body {
@@ -185,14 +188,6 @@ i {
   margin: 0 auto;
   width: 0%;
   height: auto;
-  transition-property: width;
-  transition-duration: 0.75s;
-  /* transition-timing-function: cubic-bezier(.55,1.64,.85,1.61); */
-  transition-timing-function: cubic-bezier(.51,1.02,.83,1.09);
-}
-
-.titleLineWidth {
-  width: 12%;
 }
 
 .titleTagLine {
@@ -200,28 +195,13 @@ i {
   font-weight: 400;
 }
 
-.mattFried,
-.titleTagLine {
-  transition-property: opacity;
-  transition-duration: 1s;
-  transition-timing-function: ease-in;
-}
-
 .aboutSectionTitleDiv {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 30%;
-  transition-property: bottom;
-  transition-duration: 1s;
-  transition-delay: 0.5s;
-  transition-timing-function: cubic-bezier(.58,.01,.42,1.47);
+  bottom: 35px;
   margin: auto;
   color: rgb(200, 200, 200);
-}
-
-.dropDown {
-  bottom: 8px;
 }
 
 .aboutSectionTitle {
@@ -239,6 +219,7 @@ i {
 .aboutArrow {
   /* elements are visible via javascript 'cover.js' */
   display: none;
+  opacity: 0;
 }
 
 /*=====================================
@@ -624,10 +605,6 @@ footer {
     height: calc(100vh - 57px);
   }
 
-  .dropDown {
-    bottom: 10px;
-  }
-
   .coverContainer,
   .navContainer,
   .contactSection {
@@ -673,10 +650,6 @@ footer {
   .coverContainer, {
     /* 100vh - padding */
     height: calc(100vh - 65px);
-  }
-
-  .dropDown {
-    bottom: 15px;
   }
 
   .coverContainer,
@@ -822,10 +795,6 @@ footer {
   .coverContainer, {
     /* 100vh - padding */
     height: calc(100vh - 67px);
-  }
-
-  .dropDown {
-    bottom: 20px;
   }
 
   .coverContainer,
@@ -1016,10 +985,6 @@ footer {
   .coverContainer, {
     /* 100vh - padding*/
     height: calc(100vh - 76px);
-  }
-
-  .dropDown {
-    bottom: 25px;
   }
 
   .coverContainer,
