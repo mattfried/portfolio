@@ -42,14 +42,12 @@ include('includes/header.php');
       From the moment I first logged <i>“Hello World”</i> to the browser, I’ve been captivated in the world of programming...
     </p>
     <p>
-      By day I am currently a Structural Engineering Technician at Wolfrom Engineering Ltd, a structural consulting engineering firm in Winnipeg, MB, but by night I am a Web Developer.
-      A few years ago, I realized that my heart wasn't invested in the engineering field any longer, and so I started looking for a career change.
-      My passion for technology led me into web development, and I grew to love it more than I could have expected!
+      By day I am a Structural Engineering Technician who specializes in CAD/BIM, but one of my passions outside of my daily 9-5 is web development.
+      My passion for technology led me into web development, and I've grown to love it more than I could have expected!
     </p>
     <p>
-      My passion for coding is fed my continually learning and improving through each engaging challenge I face, in order to deliver detailed, high-quality web-apps.
-      I am currently looking for a full-time Front-End Developer position in the Edmonton, AB area, as this is where my family is planning on, and ready to relocate to.
-     </p>
+      I enjoy problem solving, and coding constantly requires this to complete each unique project I take on. Ultimately, I get satifaction when I deliver detailed, high-quality websites for myself and for my clients.
+    </p>
 
     <div class="buttonContainer">
       <a href="projects.php" class="myProjectsButton">Go to My Projects</a>
