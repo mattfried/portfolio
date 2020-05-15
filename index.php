@@ -46,7 +46,7 @@ include('includes/header.php');
       My passion for technology led me into web development, and I've grown to love it more than I could have expected!
     </p>
     <p>
-      I enjoy problem solving, and coding constantly requires this to complete each unique project I take on. Ultimately, I get satifaction when I deliver detailed, high-quality websites for myself and for my clients.
+      I enjoy problem solving, and coding constantly requires this to complete each unique project I take on. Ultimately, I get satifaction when I deliver high-quality websites for myself and for my clients.
     </p>
 
     <div class="buttonContainer">
