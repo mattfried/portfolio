@@ -36,10 +36,10 @@ include('includes/header.php');
               <p class="websiteCoding"><span>Keystone CMS</span>&centerdot;<span>Node.js</span>&centerdot;<span>Express.js</span>&centerdot;<span>MongoDB</span></p>
               <p class="websiteCoding"><span>Handlebars</span>&centerdot;<span>Socket.io</span></p>
             </div>
-            <div class="projectNavs">
+            <!-- <div class="projectNavs">
               <a href="https://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
               <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
-            </div>
+            </div> -->
             <div id="aboutProject1" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">Sports Standings is as it states, a website that provides live stats and standings for the most popular leagues: NHL, NBA, NFL, and MLB.</p>
