@@ -26,9 +26,7 @@ include('includes/header.php');
       <div class="projectContainer">  <!-- Project Container -->
         <div class="project"> <!-- Architect Inc Website -->
           <div class="projectImageMacbook">
-            <!-- EDIT THIS>>>>>>> -->
             <img src="img/architectinc-wp.png" alt="Architect Inc website displayed on laptop and smartphone" />
-            <!-- EDIT THIS>>>>>>> -->
           </div>
           <div class="projectInfoContainer">
             <div class="projectTitleDiv">
