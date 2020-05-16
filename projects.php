@@ -24,6 +24,42 @@ include('includes/header.php');
     <div class="projectSection">  <!-- Project Section -->
 
       <div class="projectContainer">  <!-- Project Container -->
+        <div class="project"> <!-- Architect Inc Website -->
+          <div class="projectImageMacbook">
+            <!-- EDIT THIS>>>>>>> -->
+            <img src="img/architectinc-wp.png" alt="Architect Inc website displayed on laptop and smartphone" />
+            <!-- EDIT THIS>>>>>>> -->
+          </div>
+          <div class="projectInfoContainer">
+            <div class="projectTitleDiv">
+              <h4 class="projectTitle">Architect Inc</h4>
+              <p class="websiteInfo">Partial Design &nbsp; | &nbsp; Partial Development</p>
+              <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span></p>
+              <p class="websiteCoding"><span>PHP</span>&centerdot;<span>WordPress</span>
+            </div>
+            <div class="projectNavs">
+              <a href="https://www.architectinc.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
+              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+            </div>
+            <div id="aboutProject1" class="aboutProjectDiv">
+              <span>About</span>
+              <p class="marginTop">Architect Inc is a business website for a mock architecture firm.</p>
+              <br />
+              <span>Approach</span>
+              <p class="marginTop">
+                Coming Soon...
+              </p>
+            </div>
+            <div class="repoDiv">
+              <a href="https://github.com/mattfried/architect-inc" target="_blank" class="projectRepo">View Project Source Code</a>
+            </div>
+          </div>
+        </div>  <!-- / Architect Inc Website -->
+      </div>  <!-- / Project Container -->
+
+      <div class="divLine"></div>
+
+      <div class="projectContainer">  <!-- Project Container -->
         <div class="project"> <!-- Sports Standings App -->
           <div class="projectImageiPadLandscape">
             <img src="img/sports-standings-thumbnail.png" alt="Sports Standings App displayed on smartphone" />
@@ -38,9 +74,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <!-- <a href="https://www.sportstandings.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a> -->
-              <button id="aboutProject1Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject3Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject1" class="aboutProjectDiv">
+            <div id="aboutProject3" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">Sports Standings is as it states, a website that provides live stats and standings for the most popular leagues: NHL, NBA, NFL, and MLB.</p>
               <br />
@@ -108,9 +144,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/to-do-list/" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
-              <button id="aboutProject3Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject4Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject3" class="aboutProjectDiv">
+            <div id="aboutProject4" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">This is a fun task list web-app built with React.</p>
               <br />
@@ -138,13 +174,13 @@ include('includes/header.php');
                 <h4 class="projectTitle">Concrete Skateboard Shop</h4>
                 <p class="websiteInfo">Design &nbsp; | &nbsp; Development</p>
                 <p class="websiteCoding"><span>HTML</span>&centerdot;<span>CSS</span>&centerdot;<span>Bootstrap</span>&centerdot;<span>JavaScript</span>&centerdot;<span>jQuery</span></p>
-                <p class="websiteCoding"><span>jQuery plugins</span>&centerdot;<span>PHP</span>&centerdot;<span>WordPress CMS</span></p>
+                <p class="websiteCoding"><span>jQuery plugins</span>&centerdot;<span>PHP</span>&centerdot;<span>WordPress</span></p>
               </div>
               <div class="projectNavs">
                 <a href="https://concreteskateshop.ca/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
-                <button id="aboutProject4Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+                <button id="aboutProject5Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
               </div>
-              <div id="aboutProject4" class="aboutProjectDiv">
+              <div id="aboutProject5" class="aboutProjectDiv">
                 <span>About</span>
                 <p class="marginTop">This is a custom WordPress theme website for a concept skate shop company called Concrete Skateboard Shop.</p>
                 <br />
@@ -178,9 +214,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/calculator" target="_blank"><button class="visitWebsiteButton">VISIT WEB APP</button></a>
-              <button id="aboutProject5Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject6Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject5" class="aboutProjectDiv">
+            <div id="aboutProject6" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">My creation of a responsive calculator app.</p>
               <br />
@@ -212,9 +248,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.ca/"><button class="visitWebsiteButton">GO TO HOME PAGE</button></a>
-              <button id="aboutProject6Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject7Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject6" class="aboutProjectDiv">
+            <div id="aboutProject7" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">My portfolio website showcasing my progress as a web developer.</p>
               <br />
@@ -243,9 +279,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/full-stack-conf/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
-              <button id="aboutProject7Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject8Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject7" class="aboutProjectDiv">
+            <div id="aboutProject8" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">Full Stack Conference is a single page mock website that serves as the info and registration hub for an upcoming conference.</p>
               <br />
@@ -277,9 +313,9 @@ include('includes/header.php');
             </div>
             <div class="projectNavs">
               <a href="https://mattfried.github.io/winnipeg-guide/" target="_blank"><button class="visitWebsiteButton">VISIT WEBSITE</button></a>
-              <button id="aboutProject8Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
+              <button id="aboutProject9Link" class="aboutProjectLink">LEARN MORE &nbsp; &#8675;</button>
             </div>
-            <div id="aboutProject8" class="aboutProjectDiv">
+            <div id="aboutProject9" class="aboutProjectDiv">
               <span>About</span>
               <p class="marginTop">The City of Winnipeg Guide is a single page website showcasing some of the city’s best food, drinks, and sporting events. This is a practice project for an online web development course.</p>
               <br />
