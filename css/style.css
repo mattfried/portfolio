@@ -598,6 +598,14 @@ footer {
 /*=====================================
       MEDIA QUERIES
 ======================================*/
+@media (max-width: 800px) {
+
+  .coverContainer {
+    background-attachment: scroll;
+  }
+
+}
+
 @media (min-width: 600px) {
 
   .coverContainer, {
